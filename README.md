@@ -53,11 +53,29 @@ A continuación se detallan las historias de usuario de la aplicación android a
 | **Título:** Interaccion con tablero   |
 | **Descripción:** Como usuario de la aplicacion deseo poder realizar movimientos en el tablero para poder realizar su jugada .|
 | **Prioridad:** Alta |
-| **Criterios de aceptación:** Cuando el usuario intenta mover una pieza a otra casilla se debe validar que el movimiento sea legal y no haya finalizado la partida. |
+| **Criterios de aceptación:** Cuando el usuario mueve una pieza a otra casilla se debe validar que el movimiento sea legal y no haya finalizado la partida. |
   
-  | Historia de usuario 7|
+  
+| Historia de usuario 7|
 | ------------- |
-| **Título:** Interaccion con tablero   |
-| **Descripción:** Como usuario de la aplicacion deseo poder realizar movimientos en el tablero para poder realizar su jugada .|
+| **Título:** Interaccion con un computador   |
+| **Descripción:** Como usuario de la aplicacion deseo jugar contra un computador que tenga diferentes dificultades para intentar nuevas estrategias.|
 | **Prioridad:** Alta |
-| **Criterios de aceptación:** Cuando el usuario intenta mover una pieza a otra casilla se debe validar que el movimiento sea legal y no haya finalizado la partida. |
+| **Criterios de aceptación:** Cuando el usuario crea una partida contra un computador se debe validar que no se encuentre registrado en un torneo o se encuentre jugando una partida sin finalizar. |
+  
+  
+| Historia de usuario 8|
+| ------------- |
+| **Título:** Interaccion con un amigo|
+| **Descripción:** Como usuario de la aplicacion deseo poder jugar contra un amigo para no tener que hacerlo de manera presencial .|
+| **Prioridad:** Baja |
+| **Criterios de aceptación:** Cuando el usuario juega contra un amigo el sistema validara que no se encuentre registrado en un torneo o se encuentre jugando una partida sin finalizar . |
+  
+  
+  
+| Historia de usuario 9|
+| ------------- |
+| **Título:** Envio de mensajes|
+| **Descripción:** Como usuario de la aplicacion deseo poder enviar mensajes a otro usuario con el fin de comunicarme con el para tener una mejor interaccion.|
+| **Prioridad:** Baja |
+| **Criterios de aceptación:** Cuando el usuario envia un mensaje se verifica que el usuario al que quiere enviar un mensaje exista. |
