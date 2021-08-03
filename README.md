@@ -1,22 +1,63 @@
-# mov-proyecto-garcia-gallardo-
 <div style="text-align: center">
-<h3>Escuela Politécnica Nacional</h3>
-<h3>Facultad de Ingeniería de Sistemas</h3>
-<h3>Carrera de Ingeniería de Software</h3>
-<h3>Materia de Aplicaciones Móviles</h3>
-<br />
 <div style="text-align: center;">
-<h2>Historias de Usuario - SCRIMA (Network Scanner)</h2>
+<h2>Historias de Usuario</h2>
 </div>
 
-**Integrantes:** Alejandro Llanganate y Edison Quimbiamba
+**Integrantes:** Andres Garcia y Erick Gallardo
 
-A continuación se detallan las épicas e historias usuario de la aplicación android por desarrollar.
+A continuación se detallan las historias de usuario de la aplicación android a desarrollar.
 
-### Épica 1
-@@ -87,4 +84,4 @@ Como usuario de la aplicación SCRIMA requiero tener un historial de los escaneo
-| **Título:** Actualizar información personal |
-| **Descripción:** Como usuario deseo poder actualizar mi información personal para registrar nuevos datos sobre mi.|
+| Historia de usuario 1|
+| ------------- |
+| **Título:** Inicio de sesión   |
+| **Descripción:** Como usuario deseo poder iniciar sesion con mi correo y contraseña, pero ademas poder ingresar con mi cuenta de apple, goolge o facebook para facilitar el ingreso al sistema. |
 | **Prioridad:** Alta |
-| **Criterios de aceptación:** Se deberán validar los campos ingresados. En caso de actualizar la contraseña está no deberá ser la misma que la contraseña previa. |
-| **Criterios de aceptación:** Se deberán validar los campos ingresados. En caso de actualizar la contraseña está no deberá ser la misma que la contraseña previa. |
+| **Criterios de aceptación:** Cuando el usuario ha ingresado su correo y contraseña se da click en entrar, donde se valida la existencia de los datos, y a su vez si ingresa con la opcion apple , google o facebook se redirigira a a una pagina de ingreso en dicha aplicacion. |
+  
+  
+| Historia de usuario 2|
+| ------------- |
+| **Título:** Registro de usuario  |
+| **Descripción:** Como usuario de la aplicación quiero registrarme con mi nombre completo, correo electrónico y una contraseña para tener una experiencia más personalizada y tener acceso a la informació0n, a su vez tambien deseo poder registrarme iniciando sesion en apple, google o facebook. |
+| **Prioridad:** Alta |
+| **Criterios de aceptación:** Una vez ingresado la contraseña se da click en registrar  se  debe validar correo y contraseña, o a su vez comprobar que el ingreso a apple, goolge o facebook fue realizado correctamente, posteriormente se redirige al usuario a la vista del inicio de sesión. |
+  
+  
+| Historia de usuario 3|
+| ------------- |
+| **Título:** Registro en un torneo   |
+| **Descripción:** Como usuario de la aplicacion deseo poder registrarme en torneos, para poder competir con diferentes jugadores.|
+| **Prioridad:** Alta |
+| **Criterios de aceptación:** Cuando el usuario ha dado click en registrarme se debe validar que el usaurio no se encuentre en otro torneo actualmente. |
+  
+  
+| Historia de usuario 4|
+| ------------- |
+| **Título:** Crear un torneo   |
+| **Descripción:** Como usuario de la aplicacion deseo poder crear un torneo que se adapte a las modalidades de juego existentes en ajedrez ingresando el numero maximo de participantes y un tiempo maximo para realizar el registro.|
+| **Prioridad:** Alta |
+| **Criterios de aceptación:** Cuando el usuario ha dado click en crear se debe validar numero maximo de participantes no supere los 100 jugadores y el tiempo de inscripcion no sea mayor a un dia. |
+  
+  
+    
+| Historia de usuario 5|
+| ------------- |
+| **Título:** Visualizacion de torneo   |
+| **Descripción:** Como usuario de la aplicacion deseo poder ver el estado en el que se encuentra el torneo y a su vez observar las posiciones en las que se encuentran los jugadores.|
+| **Prioridad:** Alta |
+| **Criterios de aceptación:** Cuando el usuario desea ver los detalles de un torneo se debe comprobar si el torneo esta progreso. |
+  
+    
+| Historia de usuario 6|
+| ------------- |
+| **Título:** Interaccion con tablero   |
+| **Descripción:** Como usuario de la aplicacion deseo poder realizar movimientos en el tablero para poder realizar su jugada .|
+| **Prioridad:** Alta |
+| **Criterios de aceptación:** Cuando el usuario intenta mover una pieza a otra casilla se debe validar que el movimiento sea legal y no haya finalizado la partida. |
+  
+  | Historia de usuario 7|
+| ------------- |
+| **Título:** Interaccion con tablero   |
+| **Descripción:** Como usuario de la aplicacion deseo poder realizar movimientos en el tablero para poder realizar su jugada .|
+| **Prioridad:** Alta |
+| **Criterios de aceptación:** Cuando el usuario intenta mover una pieza a otra casilla se debe validar que el movimiento sea legal y no haya finalizado la partida. |
